@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HBeeSound</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <span>HBeeSound</span>
+        </a>
+
+        <nav class="nav-links">
+          <a href="#our-collection">Our Collection</a>
+          <a href="#new-arrivals">New Arrivals</a>
+          <a href="#for-gamers">For Gamers</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#subscription" class="sign-btn"> Sign in / Sign Up </a>
+        </div>
+      </div>
+    </header>
+
+    <!--HERO SECTION-->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>
+            Discover The Brand<br />
+            New Headset In Market
+          </h1>
+
+          <p>
+            HBeeSound is one of the world's largest online shops, providing over
+            1500 headphones for customers from over 80 countries.
+          </p>
+
+          <a href="product.html#wireless-headset" class="btn-white">
+            Buy Now
+          </a>
+        </div>
+
+        <div class="hero-image">
+          <img src="head phone.png" alt="Wireless Headphones" />
+        </div>
+      </div>
+    </section>
+
+    <!--BEST SELLING-->
+    <section class="section" id="our-collection">
+      <div class="container">
+        <input type="checkbox" id="seeMoreBest" class="see-more-toggle" />
+
+        <div class="section-header">
+          <h2>Our Best Selling</h2>
+
+          <label for="seeMoreBest" class="see-more"> See More → </label>
+        </div>
+
+        <div class="products-grid" id="bestSellingGrid">
+          <a href="product.html#beats-by-dre" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Beats By Dre.png" alt="Beats By Dre" />
+              </div>
+
+              <h3>Beats By Dre</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gray"></span>
+                <span class="dot navy"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#jbl-speaker" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="JBL Speaker.png" alt="JBL Speaker" />
+              </div>
+
+              <h3>JBL Speaker</h3>
+
+              <div class="colors">
+                <span class="dot orange"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="price">BAM 39.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#samsung-earphones" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Samsung Earphones.png" alt="Samsung Earphones" />
+              </div>
+
+              <h3>Samsung Earphones</h3>
+
+              <div class="colors">
+                <span class="dot white"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="price">BAM 19.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#wireless-headset" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Wireless Headse.png" alt="Wireless Headset" />
+              </div>
+
+              <h3>Wireless Headset</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gray"></span>
+                <span class="dot navy"></span>
+              </div>
+
+              <p class="price">BAM 69.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#apple-airpods"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Apple Airpods.png" alt="Apple Airpods" />
+              </div>
+
+              <h3>Apple Airpods</h3>
+
+              <div class="colors">
+                <span class="dot white"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#apple-airpods-max"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Airpods Max.png" alt="Apple Airpods Max" />
+              </div>
+
+              <h3>Apple Airpods Max</h3>
+
+              <div class="colors">
+                <span class="dot silver"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="price">BAM 49.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#sony-wh1000xm4"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Sony headphone.png" alt="Sony WH-1000XM4" />
+              </div>
+
+              <h3>Sony WH-1000XM4</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot silver"></span>
+              </div>
+
+              <p class="price">BAM 79.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#bose-quietcomfort"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="bose headphones.png" alt="Bose QuietComfort" />
+              </div>
+
+              <h3>Bose QuietComfort</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot white"></span>
+              </div>
+
+              <p class="price">BAM 89.99</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container promo-grid">
+        <div class="promo-card purple">
+          <div class="promo-text">
+            <h3>High-quality<br />Bluetooth Earbuds</h3>
+
+            <a href="product.html#apple-airpods" class="btn-white"> Buy Now </a>
+          </div>
+
+          <img src="Earbuds.png" alt="Bluetooth Earbuds" />
+        </div>
+
+        <div class="promo-card dark">
+          <div class="promo-text">
+            <h3>Headphones for<br />all range of price</h3>
+
+            <a href="product.html#wireless-headset" class="btn-white">
+              Buy Now
+            </a>
+          </div>
+
+          <img src="head phone.png" alt="Headphones" />
+        </div>
+      </div>
+    </section>
+
+    <!--BLACK FRIDAY -->
+    <section class="black-friday">
+      <div class="container">
+        <div class="bf-content">
+          <div class="bf-left">
+            <h2>Our Black<br />Friday Discount</h2>
+
+            <div class="countdown">
+              <div class="time-box">
+                <span class="num">01</span>
+                <span class="label">Day</span>
+              </div>
+
+              <div class="time-box">
+                <span class="num">18</span>
+                <span class="label">Hours</span>
+              </div>
+
+              <div class="time-box">
+                <span class="num">55</span>
+                <span class="label">Minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bf-products">
+            <a href="product.html#outdoor-speaker" class="bf-card">
+              <span class="discount">-30%</span>
+
+              <img src="Outdoor Speaker.png" alt="Outdoor Speaker" />
+
+              <h4>Outdoor Speaker</h4>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="old-price">BAM 30.00</p>
+              <p class="new-price">BAM 20.00</p>
+            </a>
+
+            <a href="product.html#ultimate-ears-roll-2" class="bf-card">
+              <span class="discount">-50%</span>
+
+              <img src="Ultimate Ears.png" alt="Ultimate Ears ROLL 2" />
+
+              <h4>Ultimate Ears ROLL 2</h4>
+
+              <div class="colors">
+                <span class="dot orange"></span>
+                <span class="dot red"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="old-price">BAM 60.00</p>
+              <p class="new-price">BAM 30.00</p>
+            </a>
+
+            <a href="product.html#ultimate-ears-boom-2" class="bf-card">
+              <span class="discount">-40%</span>
+
+              <img src="Boom Speaker.png" alt="Ultimate Ears Boom 2" />
+
+              <h4>Ultimate Ears Boom 2</h4>
+
+              <div class="colors">
+                <span class="dot white"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="old-price">BAM 80.00</p>
+              <p class="new-price">BAM 48.00</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW ARRIVALS-->
+    <section class="section" id="new-arrivals">
+      <div class="container">
+        <input type="checkbox" id="seeMoreNew" class="see-more-toggle" />
+
+        <div class="section-header">
+          <h2>New Arrivals</h2>
+
+          <label for="seeMoreNew" class="see-more"> See More → </label>
+        </div>
+
+        <div class="products-grid" id="newArrivalsGrid">
+          <a href="product.html#apple-airpods" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Apple Airpods.png" alt="Apple Airpods" />
+              </div>
+
+              <h3>Apple Airpods</h3>
+
+              <div class="colors">
+                <span class="dot white"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#beats-studio-3" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Beats Studio 3.png" alt="Beats Studio 3" />
+              </div>
+
+              <h3>Beats By Dre Studio 3</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gold"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#apple-airpods-max" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Airpods Max.png" alt="Apple Airpods Max" />
+              </div>
+
+              <h3>Apple Airpods Max</h3>
+
+              <div class="colors">
+                <span class="dot silver"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#samsung-earphones" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Samsung Earphones.png" alt="Samsung Earphones" />
+              </div>
+
+              <h3>Samsung Earphones</h3>
+
+              <div class="colors">
+                <span class="dot white"></span>
+                <span class="dot black"></span>
+                <span class="dot navy"></span>
+              </div>
+
+              <p class="price">BAM 29.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#beats-solo3"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Beats Studio 3.png" alt="Beats Solo3" />
+              </div>
+
+              <h3>Beats Solo3</h3>
+
+              <div class="colors">
+                <span class="dot red"></span>
+                <span class="dot black"></span>
+              </div>
+
+              <p class="price">BAM 34.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#jbl-flip-6"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="JBL Speaker.png" alt="JBL Flip 6" />
+              </div>
+
+              <h3>JBL Flip 6</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot navy"></span>
+              </div>
+
+              <p class="price">BAM 44.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#razer-blackshark"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Wireless Headse.png" alt="Razer BlackShark" />
+              </div>
+
+              <h3>Razer BlackShark</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="price">BAM 59.99</p>
+            </div>
+          </a>
+
+          <a
+            href="product.html#anker-soundcore"
+            class="product-card-link hidden-product"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Anker.png" alt="Anker Soundcore" />
+              </div>
+
+              <h3>Anker Soundcore</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot white"></span>
+              </div>
+
+              <p class="price">BAM 24.99</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR GAMERS  -->
+    <section class="section" id="for-gamers">
+      <div class="container">
+        <div class="section-header">
+          <h2>For Gamers</h2>
+        </div>
+
+        <div class="products-grid">
+          <a
+            href="product.html#wireless-gaming-headset"
+            class="product-card-link"
+          >
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Wireless Headse.png" alt="Wireless Gaming Headset" />
+              </div>
+
+              <h3>Wireless Gaming Headset</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot navy"></span>
+              </div>
+
+              <p class="price">BAM 69.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#beats-studio-3" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Beats Studio 3.png" alt="Beats Studio 3" />
+              </div>
+
+              <h3>Beats Studio 3</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+              </div>
+
+              <p class="price">BAM 59.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#pro-gaming-headset" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="head phone.png" alt="Pro Gaming Headset" />
+              </div>
+
+              <h3>Pro Gaming Headset</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot gray"></span>
+              </div>
+
+              <p class="price">BAM 49.99</p>
+            </div>
+          </a>
+
+          <a href="product.html#sony-gaming" class="product-card-link">
+            <div class="product-card">
+              <div class="product-img">
+                <img src="Sony headphone.png" alt="Sony Gaming Headphones" />
+              </div>
+
+              <h3>Sony Gaming</h3>
+
+              <div class="colors">
+                <span class="dot black"></span>
+                <span class="dot white"></span>
+              </div>
+
+              <p class="price">BAM 79.99</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col brand">
+          <a href="index.html" class="logo">
+  
+            <span>HBeeSound</span>
+          </a>
+
+          <p>
+            HBeeSound is one of the world's largest online shops, providing over
+            1500 headphones for customers from over 80 countries.
+          </p>
+
+          <div class="social">
+            <a href="https://www.instagram.com/" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://telegram.org/" aria-label="Telegram">
+              <i class="fab fa-telegram"></i>
+            </a>
+
+            <a href="https://www.whatsapp.com/" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Site Map</h4>
+
+          <ul>
+            <li><a href="index.html#our-collection">Our Collection</a></li>
+            <li><a href="index.html#new-arrivals">New Arrivals</a></li>
+            <li><a href="index.html#for-gamers">For Gamers</a></li>
+            <li><a href="#subscription">Subscription</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Products</h4>
+
+          <ul>
+            <li><a href="index.html#our-collection">Headphones</a></li>
+            <li><a href="product.html#jbl-speaker">Speakers</a></li>
+            <li><a href="index.html#for-gamers">Gaming Headsets</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" id="subscription">
+          <h4>Subscription</h4>
+
+          <form class="subscribe-form" action="#" method="get">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              aria-label="Enter your email"
+              required
+            />
+
+            <button type="submit">Submit Your Email</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
